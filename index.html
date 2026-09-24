@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizzaria do Gordão - As Melhores Pizzas da Cidade</title>
+</head>
+<body>
+
+  <header>
+    <h1>Pizzaria do Gordão</h1>
+    <nav>
+      <ul>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#tabela">Preços</a></li>
+        <li><a href="#pedido">Faça seu Pedido</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="cardapio">
+      <h2>Especiais da Casa</h2>
+      
+      <article class="card">
+        <h3>Pizza Tradicional de Calabresa</h3>
+        <p>Molho artesanal de tomate, muçarela, calabresa fatiada e cebola, assada em <em>massa crocante de fermentação natural</em>.</p>
+      </article>
+
+      <article class="card card-destaque">
+        <h3>Moda do Gordão (Especial)</h3>
+        <p>A combinação perfeita de muçarela, presunto, bacon, milho, catupiry e ovos. Esta é <strong>a pizza mais pedida da casa!</strong></p>
+      </article>
+
+      <aside>
+        <h3>Promocional de Terça</h3>
+        <p>Na compra de qualquer pizza grande, a borda recheada com catupiry sai inteiramente grátis.</p>
+      </aside>
+    </section>
+
+    <section id="tabela">
+      <h2>Tabela de Tamanhos e Preços</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tamanho</th>
+            <th>Fatias</th>
+            <th>Preço Médio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Média</td>
+            <td>6 fatias</td>
+            <td>R$ 42,00</td>
+          </tr>
+          <tr>
+            <td>Grande</td>
+            <td>8 fatias</td>
+            <td>R$ 58,00</td>
+          </tr>
+          <tr>
+            <td>Família</td>
+            <td>12 fatias</td>
+            <td>R$ 75,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="banner-hero" class="bg-banner">
+      <div class="hero-content">
+        <h2>Forno a Lenha & Ingredientes Selecionados</h2>
+      </div>
+    </section>
+
+
+    <section id="pedido">
+      <h2>Faça seu Pedido Online</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div>
+          <label for="email">E-mail de Contato:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="tamanho">Escolha o Tamanho:</label>
+          <select id="tamanho" name="tamanho">
+            <option value="media">Média (6 fatias)</option>
+            <option value="grande">Grande (8 fatias)</option>
+            <option value="familia">Família (12 fatias)</option>
+          </select>
+        </div>
+
+        <button type="submit">Enviar Pedido</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Pizzaria do Gordão.</p>
+  </footer>
+
+</body>
+</html>
