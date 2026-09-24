@@ -1,9 +1,12 @@
+/* RESET UNIVERSAL*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* TIPOGRAFIA E ESQUELETO DA PÁGINA*/
 
 body {
   font-family: Arial, sans-serif;
@@ -38,7 +41,7 @@ nav a {
   font-weight: bold;
 }
 
-
+/* Seletores de classe, variantes e imagem de fundo (classe + ID) */
 
 .card {
   padding: 1.5rem;
@@ -66,9 +69,10 @@ nav a {
 }
 
 #banner-hero {
-  background-image: url('https://picsum.photos/960/200');
+  background-image: url('forno_a_lenha.jpg');
 }
 
+/* SELETORES COMPARTILHADOS*/
 
 h1, h2, h3 {
   text-transform: uppercase;
